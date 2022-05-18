@@ -2,6 +2,9 @@ body {
   background-image: url("emblema.jfif");
   background-repeat: repeat-x;
 }
+h1{
+  font-family: "Lucida Handwriting", cursive;
+}
 table {
     border-collapse: collapse;
     width: 100%;
@@ -10,6 +13,7 @@ table {
   th, td {
     text-align: left;
     padding: 8px;
+    font-family: "Lucida Handwriting", cursive;
   }
   
   tr:nth-child(even) {background-color: #f2f2f2;}

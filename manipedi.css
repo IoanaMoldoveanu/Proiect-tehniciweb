@@ -2,16 +2,17 @@ body {
     background-image: url("emblema.jfif");
     background-repeat: repeat-x;
 }
-  h3 {
+  p {
     text-align: center;
     text-transform: uppercase;
     color: #f7f7f7;
   }
-  h3 {
+  p {
     letter-spacing: 5px;
   }
-  h3{
+  p{
     font-family: "Lucida Handwriting", cursive;
+    font-size: 20px;
   }
   a {
     text-align: center;

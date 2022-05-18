@@ -1,3 +1,4 @@
+
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
@@ -8,7 +9,6 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
 }
 let slideIndex = 1;
-showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
@@ -35,3 +35,9 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+function init()
+{
+  showSlides(slideIndex);
+ 
+}
+window.onload=init;
