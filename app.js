@@ -28,7 +28,7 @@ app.get('/manichiura/pediciura', function(req,res){
 app.get('/masaj', function(req,res){
     res.sendFile('masaj.html', {root: path.join(__dirname)})
 });
-app.get('/tratamentefaciale', function(req,res){
+app.get('/tratfaciale', function(req,res){
     res.sendFile('tratfac.html', {root: path.join(__dirname)})
 });
 app.get('/tratamentecorporale', function(req,res){
@@ -38,4 +38,7 @@ app.get('/make-up', function(req,res){
     res.sendFile('makeup.html', {root: path.join(__dirname)})
 });
 app.use('/folder', express.static(path.join(__dirname)));
+app.use((req, res, next) => {
+    res.status(404).sendFile("404.html",{root: path.join(__dirname)});
+});
 app.listen(4000);
