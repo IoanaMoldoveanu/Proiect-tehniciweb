@@ -1,6 +1,4 @@
-document.getElementById("url").addEventListener("click", function(event){
-  event.preventDefault()
-});
+
 function randomNumberAdress()
 {
   let nr=Math.floor(Math.random()*25);
