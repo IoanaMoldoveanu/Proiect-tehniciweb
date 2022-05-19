@@ -1,4 +1,10 @@
 
+myInterval = setInterval(setColor, 500);
+ 
+function setColor() {
+  let x = document.body;
+  x.style.backgroundColor = x.style.backgroundColor == "lightblue" ? "lightpink" : "lightblue";
+}
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";

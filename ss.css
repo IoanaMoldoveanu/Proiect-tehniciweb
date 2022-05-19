@@ -1,4 +1,25 @@
-
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+h2 {
+  letter-spacing: 5px;
+}
+h2{
+  font-family: "Lucida Handwriting", cursive;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #010101;
+}
+h1 {
+  letter-spacing: 5px;
+}
+h1{
+  font-family: "Lucida Handwriting", cursive;
+}
 body {
     background-image: url("emblema.jfif");
     background-repeat: repeat-x;
